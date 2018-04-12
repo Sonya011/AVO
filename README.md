@@ -9,4 +9,4 @@ can install the RPM packages by running the following commands::
 
     dnf install python-avocado
 
-sudo curl https://repos-avocadoproject.rhcloud.com/static/avocado-fedora.repo -o /etc/yum.repos.d/avocado.repo
+sudo curl https://repos-avocadoproject.rhcloud.com/static/avocado-fedora.repo-o/etc/yum.repos.d/avocado.repo

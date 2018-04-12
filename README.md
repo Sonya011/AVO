@@ -38,3 +38,6 @@ python2-avocado-plugins-runner-remote
 python2-avocado-plugins-runner-vm
 python2-avocado-plugins-runner-docker
 python-avocado-plugins-varianter-yaml-to-mux
+
+
+--dry-run

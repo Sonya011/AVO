@@ -41,3 +41,7 @@ python-avocado-plugins-varianter-yaml-to-mux
 
 
 --dry-run
+
+
+
+$ avocado vt-bootstrap --vt-type qemu

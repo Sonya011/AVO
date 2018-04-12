@@ -2,12 +2,12 @@
 AVOcado
 name is ``python-avocado``, and can be installed with::
 
-    dnf install python-avocado
+dnf install python-avocado
 
 Other available packages (depending on the Avocado version) may include:
 can install the RPM packages by running the following commands::
 
-    dnf install python-avocado
+dnf install python-avocado
 
 sudo curl https://repos-avocadoproject.rhcloud.com/static/avocado-fedora.repo-o/etc/yum.repos.d/avocado.repo
 
@@ -30,3 +30,11 @@ JOB LOG   : $HOME/avocado/job-results/job-2014-08-12T15.39-381b849a/job.log
 RESULTS    : PASS 1 | ERROR 0 | FAIL 0 | SKIP 0 | WARN 0 | INTERRUPT 0
 JOB TIME   : 0.11 s
 JOB HTML  : $HOME/avocado/job-results/job-2014-08-12T15.39-381b849a/html/results.html
+
+python-avocado-examples
+python2-avocado-plugins-output-html
+python2-avocado-plugins-resultsdb
+python2-avocado-plugins-runner-remote
+python2-avocado-plugins-runner-vm
+python2-avocado-plugins-runner-docker
+python-avocado-plugins-varianter-yaml-to-mux

@@ -45,3 +45,4 @@ python-avocado-plugins-varianter-yaml-to-mux
 
 
 $ avocado vt-bootstrap --vt-type qemu
+$ avocado plugins

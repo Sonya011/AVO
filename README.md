@@ -24,7 +24,7 @@ python -m virtualenv /path/to/new/virtual_environment
 pip install avocado-framework
 
 $ avocado run /bin/true
-JOB ID    : 1beea45b5bdccb3f2a60d877a0393a9680e1206a
+JOB ID    : 0a7ac9321c1115a79e2e502bea30222f2f44cab0
 JOB LOG   : $HOME/avocado/job-results/job-2014-08-12T15.39-381b849a/job.log
  (1/1) /bin/true: PASS (0.01 s)
 RESULTS    : PASS 1 | ERROR 0 | FAIL 0 | SKIP 0 | WARN 0 | INTERRUPT 0
@@ -48,7 +48,7 @@ $ avocado vt-bootstrap --vt-type qemu
 $ avocado plugins
 
 $ avocado run / bin / true 
-JOB ID: 1beea45b5bdccb3f2a60d877a0393a9680e1206a 
+JOB ID: 0a7ac9321c1115a79e2e502bea30222f2f44cab0 
 JOB LOG: $ HOME / avocado / job-results / job-2014-08-12T15.39-381b849a / job.log 
  (1/1) / bin / true: PASS ( 0,01 с) 
 РЕЗУЛЬТАТЫ: PASS 1 | ОШИБКА 0 | FAIL 0 | SKIP 0 | WARN 0 | INTERRUPT 0 

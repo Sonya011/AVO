@@ -18,3 +18,8 @@ avocado      Avocado                            50
 avocado-lts  Avocado LTS (Long Term Stability)  disabled
 
 dnf install python-avocado
+
+python -m virtualenv /path/to/new/virtual_environment
+. /path/to/new/virtual_environment/bin/activate
+pip install avocado-framework
+

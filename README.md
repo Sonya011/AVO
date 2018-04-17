@@ -19,6 +19,21 @@ avocado-lts  Avocado LTS (Long Term Stability)  disabled
 
 dnf install python-avocado
 
+curl https://avocado-project.org/data/repos/avocado-el.repo -o /etc/yum.repos.d/avocado.repo
+yum install python-avocado
+
+sudo dnf install -y python2 git gcc python-devel python-pip libvirt-devel libffi-devel openssl-devel libyaml-devel redhat-rpm-config xz-devel
+
+git clone git://github.com/avocado-framework/avocado.git
+cd avocado
+sudo make requirements
+sudo python setup.py install
+
+cd optional_plugins/html
+sudo python setup.py install
+
+
+
 python -m virtualenv /path/to/new/virtual_environment
 . /path/to/new/virtual_environment/bin/activate
 pip install avocado-framework

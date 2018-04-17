@@ -54,3 +54,6 @@ JOB LOG: $ HOME / avocado / job-results / job-2014-08-12T15.39-381b849a / job.lo
 РЕЗУЛЬТАТЫ: PASS 1 | ОШИБКА 0 | FAIL 0 | SKIP 0 | WARN 0 | INTERRUPT 0 
 ВРЕМЯ РАБОТЫ: 0.11 s 
 JOB HTML: $ HOME / avocado / job-results / job-2014-08-12T15.39-381b849a / html / results.html
+
+$ make develop
+

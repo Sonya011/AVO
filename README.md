@@ -59,16 +59,3 @@ python-avocado-plugins-varianter-yaml-to-mux
 
 
 
-$ avocado vt-bootstrap --vt-type qemu
-$ avocado plugins
-
-$ avocado run / bin / true 
-JOB ID: 0a7ac9321c1115a79e2e502bea30222f2f44cab0 
-JOB LOG: $ HOME / avocado / job-results / job-2014-08-12T15.39-381b849a / job.log 
- (1/1) / bin / true: PASS ( 0,01 с) 
-РЕЗУЛЬТАТЫ: PASS 1 | ОШИБКА 0 | FAIL 0 | SKIP 0 | WARN 0 | INTERRUPT 0 
-ВРЕМЯ РАБОТЫ: 0.11 s 
-JOB HTML: $ HOME / avocado / job-results / job-2014-08-12T15.39-381b849a / html / results.html
-
-$ make develop
-
